@@ -10,6 +10,15 @@ namespace CalculatorApp
     {
         static void Main(string[] args)
         {
+
+            // Book java = new Book("Java" , 2019);
+            Book java = new Book
+            {
+                Title = "Java",
+                Year = 2019
+            };
+
+            Book csharp = new Book("C#" , 2014);
         }
     }
 }
